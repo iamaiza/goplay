@@ -1,0 +1,32 @@
+.slider .slick-slide .timeline {
+    width: fit-content;   
+    margin: auto;    
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    .slider .slick-slide div {
+        width: 97.5%;
+        margin-left: 0.2rem;
+    }
+}
+
+@media screen and (max-width: 500px) and (max-width: 640px) {
+    .slider .slick-slide div {
+        width: 97%;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .slider .slick-slide div {
+        width: 100%;
+    }
+    .slider .slick-slide .timeline {
+        padding-left: 0;
+        padding-right: 0;
+        width: 12rem;
+        font-weight: 700;
+        border-radius: 0;
+    }
+}

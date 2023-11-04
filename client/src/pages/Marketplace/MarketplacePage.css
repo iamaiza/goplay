@@ -1,0 +1,14 @@
+.marketplace-bg {
+    background-image: url('https://goplay.myxplora.com/_nuxt/img/marketplace-banner.8ac14f4.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:1279px) {
+    .marketplace-bg {
+        background-image: url('https://goplay.myxplora.com/_nuxt/img/marketplace-banner-mobile.ba15361.jpg');
+    }
+}

@@ -1,0 +1,15 @@
+.footer {
+    background: linear-gradient(180deg,#002e55,#00294b 45%,#000911);;
+}
+
+.watch-card {
+    background: linear-gradient(180deg,#456784 26%,#173853);;
+}
+
+@media screen and (max-width: 600px) {
+
+    .footer-products h2 {
+        margin-top: -3rem;
+    }
+
+}

@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url("http://www.yoursite.com/fonts/Avenir_Next.otf"); 
+    }
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'AvenirNextLTPro', Helvetica, sans-serif, Arial;
+}
+
+.boxShadow {
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12)!important;
+}
+.btn-bg {
+    background: linear-gradient(90deg,#754bef,#754bef 36%,#5675f4);
+}
+.watch-shadow {
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.25);
+}

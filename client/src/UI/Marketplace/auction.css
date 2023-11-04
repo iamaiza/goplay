@@ -1,0 +1,9 @@
+.bg-linear {
+    background: linear-gradient(270deg,#754bef 7%,#5675f4 19%,#cb7ae6);
+}
+
+@media screen and (max-width: 1023px) {
+    .bg-linear {
+        background: linear-gradient(69deg,#8e5bda,#ad6be0 66%,#cb7ae6);
+    }
+}

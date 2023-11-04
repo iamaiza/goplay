@@ -1,0 +1,29 @@
+.active-link {
+    @apply tw-bg-[#745FD3]
+}
+
+.active-link.tw-text-gray-400 {
+    @apply tw-text-white
+}
+
+.page-links svg {
+    @apply tw-fill-[#6149cd]
+}
+
+.page-links .angle-stroke svg{
+    @apply tw-stroke-[#6149cd] tw-fill-none
+}
+
+.active-link svg {
+    @apply tw-fill-white
+}
+
+.active-link .angle-stroke svg {
+    @apply tw-stroke-white tw-fill-none
+}
+
+.div-border {
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}

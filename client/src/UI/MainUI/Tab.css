@@ -1,0 +1,19 @@
+/* .slick-slider.tab-slider .slick-track{
+    margin: 0;
+} */
+
+/* .tab-slider .slick-list {
+    width: 300px;
+} */
+
+.tabslider-container .carousel-inner{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* @media screen and (max-width: 350px) {
+    .tabslider-container .carousel-inner {
+        justify-content: center;
+    }
+    
+} */

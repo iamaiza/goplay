@@ -1,0 +1,16 @@
+@media screen and (max-width:500px) {
+    .login-form-container.tw-mx-10 {
+        @apply tw-mx-4
+    }
+    .login-inputs {
+        margin-left: auto;
+    }
+
+    .login-form-container form button {
+        margin-left: 0;
+    }
+
+    .span-container span.tw-px-5 {
+        @apply tw-px-[0.9rem] tw-text-[13px] tw-py-2.5
+    }
+}

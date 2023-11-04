@@ -1,0 +1,16 @@
+.fig-shadow {
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.27);
+}
+
+
+@media screen and (max-width: 500px) {
+    .row.row-px{
+        @apply tw-px-4
+    }
+    .row.row-px .prev-btn.tw-w-8,
+    .row.row-px .next-btn.tw-w-8, 
+    .row.row-px .prev-btn.tw-h-8,
+    .row.row-px .next-btn.tw-h-8{
+        @apply tw-w-6 tw-h-6
+    }
+}

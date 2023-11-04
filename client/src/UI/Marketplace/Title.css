@@ -1,0 +1,20 @@
+@media screen and (max-width: 500px) {
+    .title.tw-text-xl {
+        @apply tw-text-[15px]
+    }
+    .title-opacity.tw-opacity-80 {
+        @apply tw-opacity-100
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .title-container.tw-items-center {
+        @apply tw-items-start
+    }
+    .auction-icon {
+        @apply tw-w-6 tw-h-6
+    }
+    .auction-icon svg {
+        @apply tw-w-4 tw-h-4
+    }
+}

@@ -1,0 +1,11 @@
+.left-side-items {
+    background: linear-gradient(90deg,#754bef,#754bef 36%,#5675f4);
+}
+
+.text-color {
+    color: rgba(0,0,0,.54);
+}
+
+.active {
+    @apply tw-bg-[#e5310e] tw-text-white
+}

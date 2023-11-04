@@ -1,0 +1,18 @@
+
+
+@media screen and (max-width: 960px) {
+    .join-premium-section.tw-px-20 {
+        @apply tw-pt-8
+    }
+    
+    .join-premium-section p {
+        font-size: 17px;
+        margin: 1.2rem 0;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 980px) {
+    .premium-text.tw-text-6xl {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,7 @@
+.card-shadow {
+    box-shadow: 2.3px 12.8px 54px 0 rgba(105,95,151,.23);
+}
+
+.grid-cols {
+    grid-template-columns: 2fr 1fr;
+}

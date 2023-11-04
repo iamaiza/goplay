@@ -1,0 +1,45 @@
+.animals-img {
+    width: 45%;
+}
+
+
+@media screen and (min-width: 980px) and (max-width: 1200px) {
+    .animals-img {
+        width: 50%;
+        margin-left: 1rem;
+    }
+    .text-m.tw-mr-36 {
+        @apply tw-mr-0
+    }
+
+    .learn-section.tw-px-16 {
+        @apply tw-px-10
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .learn-section.tw-pt-5 {
+        @apply tw-pt-12
+    }
+    .text-m.tw-mr-36 {
+        @apply tw-mr-0
+    }
+    .btn {
+        @apply tw-hidden
+    }
+    .btn-hidden.tw-hidden {
+        @apply tw-block
+    }
+    .animals-img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .learn-section.tw-px-16 {
+        @apply tw-px-5
+    }
+    .learn-section p, .btn-hidden button {
+        font-size: 16px;
+    }
+}

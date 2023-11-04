@@ -1,0 +1,19 @@
+.img-backdrop::before {
+    content: '';
+    width: 8rem;
+    height: 8rem;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    transform: translate(-43%, -50%);
+    z-index: 1;
+    border-radius: 100%;
+}
+
+@media screen and (max-width:640px) {
+    .modal__dialog .modal-body {
+        padding-left: 1rem;
+        padding-right: 1rem;    
+    }
+}

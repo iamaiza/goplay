@@ -1,0 +1,23 @@
+.bars {
+    width: 30px;
+    height: 2.5px;
+    background-color: #fff;
+    position: relative;
+}
+
+.bars::before,
+.bars::after {
+    content: "";
+    width: 30px;
+    height: 2.5px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+}
+
+.bars::before {
+    top: -6px;
+}
+.bars::after {
+    top: 6px;
+}

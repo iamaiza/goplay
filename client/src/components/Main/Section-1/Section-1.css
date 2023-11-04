@@ -1,0 +1,42 @@
+
+.box {
+    background: linear-gradient(180deg,#a97aff 26%,#8153e0);
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .grid-section {
+        @apply tw-flex tw-flex-col-reverse tw-gap-y-12
+    }
+
+}
+@media screen and (max-width:500px) {
+    .grid-section {
+        @apply tw-place-items-start
+    }
+    .box-container {
+        @apply tw-pl-4
+    }
+    .box h2 {
+        @apply tw-text-[1.4rem]
+    }
+    .box.tw-h-32 {
+        @apply tw-h-28 tw-ml-3
+    }
+}
+@media screen and (max-width: 400px) {
+    .box.tw-p-5 {
+        @apply tw-flex tw-flex-col tw-justify-center 
+    }
+    .box.-tw-ml-2 {
+        @apply tw-ml-1.5 tw-w-44 
+    }
+    .box-container {
+        @apply tw-pl-2
+    }
+}

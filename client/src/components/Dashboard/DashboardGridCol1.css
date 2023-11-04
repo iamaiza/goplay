@@ -1,0 +1,57 @@
+.grid-col2 {
+    grid-template-columns: 1fr 2fr;
+}
+.grid-col3 {
+    grid-template-columns: 2fr 1fr;
+}
+
+.grid-card {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-card-1 {
+    background-image: url("https://goplay.myxplora.com/_nuxt/img/Group%2015880.2e8433c.png");
+}
+.grid-card-2 {
+    background-image: url("https://goplay.myxplora.com/_nuxt/img/dashbord-goldrush.2bdab12.png");
+}
+
+.grid-card-3 {
+    background-image: url("https://goplay.myxplora.com/_nuxt/img/Group%2015885.ec45379.png");
+}
+
+.grid-card-4 {
+    background-image: url("https://goplay.myxplora.com/_nuxt/img/Group%2015883.75a9991.png");
+}
+.card1, .card2 {
+    flex-basis: 47%;
+}
+.card1 {
+    height: 28rem;
+}
+.card2 {
+    height: 29rem;
+}
+
+@media screen and (max-width: 1279px) {
+    .grid-card-3 {
+        background-image: url("https://goplay.myxplora.com/_nuxt/img/smart-watches.e1cceda.png");
+    }
+    .grid-card-2 {
+        background-image: url("https://goplay.myxplora.com/_nuxt/img/animals.8ee5557.png");
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .card1, .card2 {
+        flex-basis: unset;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .graph-data.tw-shadow-lg {
+        box-shadow: 0 5px 10px 0 rgba(117,75,239,.05);
+    }
+}
